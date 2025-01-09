@@ -5,7 +5,7 @@
  * @brief 마이크로초(us) 단위의 지연 함수
  * @param us 지연 시간(마이크로초)
  */
-extern TIM_HandleTypeDef htim3; // TIM11 핸들러 선언
+extern TIM_HandleTypeDef htim3; // TIM3 핸들러 선언
 
 void delay_us(uint16_t us)
 {
